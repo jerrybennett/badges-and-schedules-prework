@@ -19,7 +19,7 @@ def assign_rooms(array)
 end
 
 def printer(attendees)
-  attendees.each {|attendees|
+  attendees.each_line {|attendees|
     puts batch_badge_creator(attendees)
   }
   # puts assign_rooms(attendees).chomp
